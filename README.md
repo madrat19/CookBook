@@ -1,4 +1,4 @@
-```
+``` bash
 git clone https://github.com/madrat19/cookbook.git
 ```
 ```
