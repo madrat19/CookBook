@@ -1,0 +1,15 @@
+<!-- recipes.html -->
+
+<html>
+<head>
+    <title>Recipes without {{product}}</title>
+</head>
+<body>
+    <h1>Recipes without {{product}}</h1>
+    <ul>
+        {% for recipe in recipes %}
+            <li>{{ recipe.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
